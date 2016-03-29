@@ -8,7 +8,7 @@
  * Service in the stockDogApp.
  */
 angular.module('stockDogApp')
-  .service('WatshlistService', function WatshlistService() {
+  .service('WatchlistService', function WatshlistService() {
     var loadModel=function(){
       var model={
         watchlists:localStorage['StockDog.watchlists']?JSON.parse(localStorage['StockDog.watchlists']):[],
@@ -16,7 +16,7 @@ angular.module('stockDogApp')
       };
       return model;
     };
-    
+
 
     var saveModel=function(){
       localStorage['StockDog.watchlists']=JSON.stringify(Model.watchlists);
