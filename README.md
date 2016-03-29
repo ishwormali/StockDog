@@ -1,0 +1,2 @@
+# StockDog
+angularjs practice
