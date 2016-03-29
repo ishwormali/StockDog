@@ -40,7 +40,8 @@ angular.module('stockDogApp')
           $location.path('/');
         };
 
-        
+
       }
     };
   }]);
+
